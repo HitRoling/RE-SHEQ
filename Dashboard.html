@@ -1,0 +1,61 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dashboard</title>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+        <!-- Header -->
+        <div class="flex justify-between items-center mb-10">
+            <div class="flex items-center space-x-4">
+                <img alt="Logo" class="w-16 h-16 rounded-full shadow-md" src="https://storage.googleapis.com/a1aa/image/LaE55X4IW6ftVcVBIaB4O3CcwJdILclz0bTs6au3HHw.jpg"/>
+                <h1 class="text-4xl font-bold text-gray-800">Dashboard</h1>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-12 gap-6">
+            <!-- Sidebar -->
+            <div class="col-span-3">
+                <div class="bg-white rounded-2xl shadow-lg p-5">
+                    <ul class="space-y-3">
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Reports</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Incidents and Accidents</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Non-Conformances</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Risk Management</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Document Control</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Employees</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Assets</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Notifications</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 rounded-lg hover:bg-blue-100 transition font-medium text-gray-700">Permits and Licences</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-span-9">
+                <div class="bg-white rounded-2xl shadow-lg p-6 min-h-[400px] flex items-center justify-center text-gray-400 text-lg">
+                    Select a section from the sidebar
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
